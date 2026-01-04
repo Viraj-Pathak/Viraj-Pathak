@@ -18,13 +18,13 @@ Tech: FastAPI, Python, Scikit-learn, ML, Monitoring Intelligence
 ### 🤖 AI Resume Screening System
 Automates resume evaluation using NLP + ML  
 Tech: Python, NLP, Scikit-learn, Transformers  
-🔗 Repo: (Add link)
+🔗 Repo: https://github.com/Viraj-Pathak/ai_resume_screening
 
 ---
 
 ### ☁️ Cloud Failure Predictor
 Smart cloud incident risk predictor using ML  
-🔗 Repo: (Add link)
+🔗 Repo: https://github.com/Viraj-Pathak/cloud-failure-predictor
 
 ---
 
