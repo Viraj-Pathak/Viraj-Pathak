@@ -64,6 +64,17 @@ Currently focused on AI-powered career tools, MLOps, and infrastructure intellig
 
 ---
 
+### 🤖 [PDF Q&A Bot — RAG Document Intelligence](https://github.com/Viraj-Pathak/pdf-qa-bot)
+> Upload any PDF and ask questions in plain English — answers grounded exclusively in the document
+
+- End-to-end RAG pipeline: PDF ingestion → chunking → vector embeddings → FAISS similarity search → LLM answer generation
+- Confidence scoring per retrieved chunk with source citations and page numbers
+- Fully free stack: FastEmbed (local embeddings) + Groq LLaMA 3 + FAISS + Streamlit Cloud
+- **Stack:** Python · LangChain · FAISS · Groq (LLaMA 3) · FastEmbed · Streamlit
+- 🔗 [Live Demo](https://pdf-app-bot-cwhvxuxd734y6wteqroydt.streamlit.app/)
+
+---
+
 ### 🌱 [Soil WRC Neural Network](https://github.com/Viraj-Pathak/soil-wrc-neural-network)
 > Neural network to estimate soil water retention curves from physical properties
 
@@ -88,6 +99,7 @@ Currently focused on AI-powered career tools, MLOps, and infrastructure intellig
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 
 **Web & Backend**
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
@@ -96,6 +108,7 @@ Currently focused on AI-powered career tools, MLOps, and infrastructure intellig
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 **Databases & DevOps**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
