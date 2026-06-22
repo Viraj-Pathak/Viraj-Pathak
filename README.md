@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  📍 USA &nbsp;·&nbsp; 🎓 MS Computer Science &nbsp;·&nbsp; Open to <b>AI/ML Engineer · Applied Scientist · MLOps Engineer</b> roles
+  📍 USA &nbsp;·&nbsp; 🎓 MS Computer Science
 </p>
 
 <p align="center">
@@ -28,6 +28,10 @@
 
 ## 🧠 What I Build
 
+<table>
+<tr>
+<td>
+
 - 🤖 **LLM systems** — evaluation harnesses, observability pipelines, RAG, agentic workflows
 - 🏗️ **MLOps infrastructure** — experiment tracking, model registry, drift monitoring, CI/CD for ML
 - ⚡ **Production ML services** — FastAPI-served models, containerized with Docker, monitored end-to-end
@@ -35,51 +39,130 @@
 
 > My focus is the reliability layer: the eval harnesses, observability, and MLOps pipelines that make AI trustworthy in production — not just demos.
 
+</td>
+<td align="center" width="30%">
+
+**Open to roles**
+
+<br/>
+
+![AI/ML Engineer](https://img.shields.io/badge/AI%2FML_Engineer-412991?style=flat-square&logoColor=white)
+
+![Applied Scientist](https://img.shields.io/badge/Applied_Scientist-0194E2?style=flat-square&logoColor=white)
+
+![MLOps Engineer](https://img.shields.io/badge/MLOps_Engineer-13ADC7?style=flat-square&logoColor=white)
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🔨 Currently Building
 
-| | Project | What |
-|:---:|---|---|
-| 🔬 | [**LLM Eval & Observability Harness**](https://github.com/Viraj-Pathak/llm-eval-harness) | CI regression gate · HTML dashboard · multi-model sweep · adversarial test suites |
-| 🏗️ | [**End-to-End MLOps Pipeline**](https://github.com/Viraj-Pathak/mlops-pipeline) | DVC · MLflow · FastAPI · Docker · Evidently drift monitoring · GitHub Actions CI/CD |
+<p align="center">
+  <a href="https://github.com/Viraj-Pathak/llm-eval-harness">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=llm-eval-harness&theme=tokyonight&hide_border=true&show_owner=false"/>
+  </a>
+  <a href="https://github.com/Viraj-Pathak/mlops-pipeline">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=mlops-pipeline&theme=tokyonight&hide_border=true&show_owner=false"/>
+  </a>
+</p>
+
+<p align="center">
+  <sub>🔬 CI regression gate · multi-model sweep · adversarial suites · HTML dashboard</sub>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>🏗️ DVC · MLflow · FastAPI · Docker · Evidently · GitHub Actions</sub>
+</p>
 
 ---
 
 ## 🚀 Projects
 
-### 🎯 [PrepIQ — AI Mock Interview Analyzer](https://github.com/Viraj-Pathak/ai-mock-interview-analyzer) &nbsp;·&nbsp; [Live Demo](https://ai-mock-interview-analyzer-vkdh.vercel.app/login)
-> LLM-powered mock interview platform for STEM careers
+<table>
+<tr>
+<td align="center" width="50%">
 
-- Generates role-specific technical questions · scores answers across communication, knowledge & problem-solving
-- Full-stack: auth, session tracking, feedback dashboard
-- **Stack:** Python · Next.js · Tailwind · LLM APIs · Vercel
+### 🎯 PrepIQ — AI Mock Interview Analyzer
 
----
+<a href="https://github.com/Viraj-Pathak/ai-mock-interview-analyzer">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=ai-mock-interview-analyzer&theme=tokyonight&hide_border=true&show_owner=false"/>
+</a>
 
-### 🤖 [RAG Document Q&A](https://github.com/Viraj-Pathak/pdf-qa-bot) &nbsp;·&nbsp; [Live Demo](https://pdf-app-bot-cwhvxuxd734y6wteqroydt.streamlit.app/)
-> Ask questions over any PDF — answers grounded strictly in the source
+<br/>
 
-- Full RAG pipeline: ingest → chunk → embed → FAISS retrieval → grounded generation
-- Per-chunk confidence scoring with source citations · no paid API required
-- **Stack:** Python · LangChain · FAISS · FastEmbed · Groq (LLaMA 3) · Streamlit
+<a href="https://ai-mock-interview-analyzer-vkdh.vercel.app/login">
+  <img src="https://img.shields.io/badge/▶_Live_Demo-00C851?style=flat-square&logo=vercel&logoColor=white"/>
+</a>
 
----
+<br/><br/>
 
-### 🖥️ [Enterprise AI Reliability Platform](https://github.com/Viraj-Pathak/enterprise-ai-reliability-platform)
-> ML system that flags infrastructure failure risk before it happens
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white)
+![LLM APIs](https://img.shields.io/badge/LLM_APIs-412991?style=flat-square&logo=openai&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white)
 
-- RandomForest failure-risk classification + IsolationForest anomaly detection on cloud telemetry
-- FastAPI service: risk scoring + remediation recommendations
-- **Stack:** Python · FastAPI · Scikit-learn · Pandas
+</td>
+<td align="center" width="50%">
 
----
+### 🤖 RAG Document Q&A
 
-### 📄 [AI Resume Screening](https://github.com/Viraj-Pathak/ai_resume_screening)
-> Semantic resume-to-job-description matching
+<a href="https://github.com/Viraj-Pathak/pdf-qa-bot">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=pdf-qa-bot&theme=tokyonight&hide_border=true&show_owner=false"/>
+</a>
 
-- Sentence-Transformer embeddings · automatically ranks and scores candidates
-- **Stack:** Python · Flask · Sentence Transformers · Scikit-learn
+<br/>
+
+<a href="https://pdf-app-bot-cwhvxuxd734y6wteqroydt.streamlit.app/">
+  <img src="https://img.shields.io/badge/▶_Live_Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-009688?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq_LLaMA_3-FF6F00?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="50%">
+
+### 🖥️ Enterprise AI Reliability Platform
+
+<a href="https://github.com/Viraj-Pathak/enterprise-ai-reliability-platform">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=enterprise-ai-reliability-platform&theme=tokyonight&hide_border=true&show_owner=false"/>
+</a>
+
+<br/><br/>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+</td>
+<td align="center" width="50%">
+
+### 📄 AI Resume Screening
+
+<a href="https://github.com/Viraj-Pathak/ai_resume_screening">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=ai_resume_screening&theme=tokyonight&hide_border=true&show_owner=false"/>
+</a>
+
+<br/><br/>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
+![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
