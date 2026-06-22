@@ -137,6 +137,12 @@
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=agentic-research-assistant&theme=tokyonight&hide_border=true&show_owner=false"/>
 </a>
 
+<br/>
+
+<a href="https://agentic-research-assistant-jxbypfktqrsbe2sw7wjvm9.streamlit.app">
+  <img src="https://img.shields.io/badge/▶_Live_Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+</a>
+
 <br/><br/>
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
