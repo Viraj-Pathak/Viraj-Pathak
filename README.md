@@ -131,18 +131,19 @@
 <tr>
 <td align="center" width="50%">
 
-### 🖥️ Enterprise AI Reliability Platform
+### 🤖 Multi-Agent Research Assistant
 
-<a href="https://github.com/Viraj-Pathak/enterprise-ai-reliability-platform">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=enterprise-ai-reliability-platform&theme=tokyonight&hide_border=true&show_owner=false"/>
+<a href="https://github.com/Viraj-Pathak/agentic-research-assistant">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=agentic-research-assistant&theme=tokyonight&hide_border=true&show_owner=false"/>
 </a>
 
 <br/><br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude_Sonnet-412991?style=flat-square&logo=anthropic&logoColor=white)
+![Tavily](https://img.shields.io/badge/Tavily_Search-FF6F00?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 </td>
 <td align="center" width="50%">
