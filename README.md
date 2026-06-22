@@ -147,18 +147,25 @@
 </td>
 <td align="center" width="50%">
 
-### 📄 AI Resume Screening
+### 🏦 Prologis Financial Assistant
 
-<a href="https://github.com/Viraj-Pathak/ai_resume_screening">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=ai_resume_screening&theme=tokyonight&hide_border=true&show_owner=false"/>
+<a href="https://github.com/Viraj-Pathak/prologis-financial-assistant">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Pathak&repo=prologis-financial-assistant&theme=tokyonight&hide_border=true&show_owner=false"/>
+</a>
+
+<br/>
+
+<a href="https://prologis-financial-assistant-bqs9hvup7nfq8th64qn3iv.streamlit.app/">
+  <img src="https://img.shields.io/badge/▶_Live_Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
 </a>
 
 <br/><br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
-![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![SageMaker](https://img.shields.io/badge/SageMaker-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Bedrock](https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 </td>
 </tr>
