@@ -1,121 +1,125 @@
 <h1 align="center">Hey, I'm Viraj Pathak 👋</h1>
 
 <p align="center">
-  <b>AI · ML · Full-Stack Engineer</b><br/>
-  📍 USA &nbsp;|&nbsp; 🎓 MS CS &nbsp;|&nbsp; 🔍 Open to Internships & Full-Time Roles
+  <b>AI/ML Engineer — GenAI · LLM Systems · MLOps</b><br/>
+  📍 USA &nbsp;|&nbsp; 🎓 MS Computer Science &nbsp;|&nbsp; Building production LLM and ML systems
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/viraj-pathak-3a19551b8"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:viraj.pathak1022@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:viraj@myjobsinbox.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/Viraj-Pathak"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 ---
 
-## 🧠 About Me
+## 🧠 About
 
-I'm an AI/ML engineer who loves turning messy real-world problems into clean, intelligent systems. My work spans the full spectrum — from training ML models and building FastAPI backends to shipping full-stack web apps with React and Next.js.
+I build LLM-powered and machine-learning systems end to end — from model training and evaluation to serving, monitoring, and the full-stack apps around them. My focus is on the parts that make AI reliable in production: evaluation harnesses, observability, drift monitoring, and reproducible MLOps pipelines.
 
-Currently focused on AI-powered career tools, MLOps, and infrastructure intelligence.
+Currently focused on: LLM evaluation & observability, RAG, agentic systems, and MLOps.
+
+Open to: AI/ML Engineer · Applied Scientist · MLOps Engineer roles.
 
 ---
 
 ## 🚀 Featured Projects
 
+### 🔬 [LLM Eval & Observability Harness](https://github.com/Viraj-Pathak/llm-eval-harness)
+> Framework for systematically evaluating and monitoring LLM applications
+
+- Automated eval suites: correctness, groundedness, hallucination & regression checks
+- CI regression gate, HTML dashboard, multi-model sweep, and adversarial test suites
+- Trace logging and latency/cost/quality observability for LLM pipelines
+- **Stack:** Python · LLM APIs · evaluation metrics · tracing/observability
+
+---
+
+### 🏗️ [End-to-End MLOps Pipeline](https://github.com/Viraj-Pathak/mlops-pipeline)
+> Production-grade ML lifecycle: versioning → tracking → serving → drift monitoring → CI/CD
+
+- DVC data versioning · MLflow experiment tracking · model registry promotion
+- FastAPI `/predict` service, containerized with Docker
+- Evidently AI drift reports, scheduled via GitHub Actions
+- CI on every push: Ruff lint → pytest → Docker build/push → drift check
+- **Stack:** Python · MLflow · DVC · FastAPI · Docker · Evidently · GitHub Actions · XGBoost
+
+---
+
 ### 🎯 [PrepIQ — AI Mock Interview Analyzer](https://github.com/Viraj-Pathak/ai-mock-interview-analyzer)
-> AI-powered mock interview platform built for STEM careers
+> LLM-powered mock interview platform for STEM careers · [Live Demo](https://ai-mock-interview-analyzer-vkdh.vercel.app/login)
 
-- Generates role-specific technical questions using LLMs
-- Analyzes and scores responses across communication, knowledge, and problem-solving
-- Full-stack app with auth, session tracking, and feedback dashboard
+- Generates role-specific technical questions with LLMs
+- Scores responses across communication, knowledge, and problem-solving
+- Full-stack app with auth, session tracking, and a feedback dashboard
 - **Stack:** Python · Next.js · Tailwind CSS · LLM APIs · Vercel
-- 🔗 [Live Demo](https://ai-mock-interview-analyzer-vkdh.vercel.app/login)
 
 ---
 
-### 💼 [Job Recommender](https://github.com/Viraj-Pathak/job-recommender)
-> Full-stack job platform with a custom hybrid ML recommendation engine
+### 🤖 [RAG Document Q&A](https://github.com/Viraj-Pathak/pdf-qa-bot)
+> Ask questions over any PDF — answers grounded strictly in the source · [Live Demo](https://pdf-app-bot-cwhvxuxd734y6wteqroydt.streamlit.app/)
 
-- Hybrid engine combining Jaccard skill similarity (content-based) + collaborative filtering
-- Kanban application tracker, skill gap analysis, salary insights, and company pages
-- Dark mode, saved jobs, in-app apply modal
-- **Stack:** Next.js 14 · TypeScript · Tailwind CSS · Custom ML Engine · Vercel
-- 🔗 [Live Demo](https://job-recommender-nine.vercel.app/)
+- Full RAG pipeline: ingest → chunk → embed → FAISS retrieval → grounded generation
+- Per-chunk confidence scoring with source citations and page numbers
+- Local embeddings (FastEmbed) + Groq LLaMA 3 — no paid API required
+- **Stack:** Python · LangChain · FAISS · FastEmbed · Groq (LLaMA 3) · Streamlit
 
 ---
 
-### 🏗️ [Enterprise AI Reliability Platform](https://github.com/Viraj-Pathak/enterprise-ai-reliability-platform)
-> ML system that predicts infrastructure failure risk before it happens
+### 🖥️ [Enterprise AI Reliability Platform](https://github.com/Viraj-Pathak/enterprise-ai-reliability-platform)
+> ML system that flags infrastructure failure risk before it happens
 
-- RandomForest for failure risk classification + IsolationForest for anomaly detection
-- Ingests cloud metrics: CPU, Memory, Disk I/O, Latency, Packet Loss, Error Rate, Traffic
-- FastAPI backend with RESTful endpoints for risk scoring & remediation recommendations
+- RandomForest failure-risk classification + IsolationForest anomaly detection
+- Ingests cloud telemetry: CPU, memory, disk I/O, latency, packet loss, error rate
+- FastAPI service exposing risk scoring + remediation recommendations
 - **Stack:** Python · FastAPI · Scikit-learn · Pandas
 
 ---
 
 ### 📄 [AI Resume Screening](https://github.com/Viraj-Pathak/ai_resume_screening)
-> NLP-powered resume evaluation web app
+> Semantic resume-to-job-description matching
 
-- Sentence Transformers for semantic resume-to-job-description matching
-- Ranks and scores candidates automatically using ML similarity scoring
+- Sentence-Transformer embeddings for semantic similarity scoring
+- Automatically ranks and scores candidates against a job description
 - **Stack:** Python · Flask · Sentence Transformers · Scikit-learn
-
----
-
-### 🤖 [PDF Q&A Bot — RAG Document Intelligence](https://github.com/Viraj-Pathak/pdf-qa-bot)
-> Upload any PDF and ask questions in plain English — answers grounded exclusively in the document
-
-- End-to-end RAG pipeline: PDF ingestion → chunking → vector embeddings → FAISS similarity search → LLM answer generation
-- Confidence scoring per retrieved chunk with source citations and page numbers
-- Fully free stack: FastEmbed (local embeddings) + Groq LLaMA 3 + FAISS + Streamlit Cloud
-- **Stack:** Python · LangChain · FAISS · Groq (LLaMA 3) · FastEmbed · Streamlit
-- 🔗 [Live Demo](https://pdf-app-bot-cwhvxuxd734y6wteqroydt.streamlit.app/)
-
----
-
-### 🌱 [Soil WRC Neural Network](https://github.com/Viraj-Pathak/soil-wrc-neural-network)
-> Neural network to estimate soil water retention curves from physical properties
-
-- Trained on the GRIZZLY dataset using particle size distribution and soil properties
-- Applied in geotechnical/environmental engineering contexts
-- **Stack:** Python · TensorFlow/Keras · NumPy · Pandas
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+**AI / ML & GenAI**
 
-**AI / ML**
+![LLMs](https://img.shields.io/badge/LLMs-412991?style=flat&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 
-**Web & Backend**
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+**MLOps & Infra**
 
-**Databases & DevOps**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![DVC](https://img.shields.io/badge/DVC-13ADC7?style=flat&logo=dvc&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+
+**Backend & Web**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+
+**Data**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
 ---
 
@@ -129,6 +133,5 @@ Currently focused on AI-powered career tools, MLOps, and infrastructure intellig
 ---
 
 <p align="center">
-  💬 Always open to interesting conversations, collaborations, or just a quick coffee chat.<br/>
-  📫 Reach me at <a href="mailto:viraj.pathak1022@gmail.com">viraj.pathak1022@gmail.com</a>
+  📫 Reach me at <a href="mailto:viraj@myjobsinbox.com">viraj@myjobsinbox.com</a> · Open to AI/ML, Applied Scientist & MLOps roles.
 </p>
